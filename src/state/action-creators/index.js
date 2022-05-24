@@ -1,5 +1,5 @@
 export const depositMoney = (amount) => {
-  return (dispatch) => {
+  return async (dispatch) => {
     dispatch({
       type: 'DEPOSIT',
       payload: amount,
