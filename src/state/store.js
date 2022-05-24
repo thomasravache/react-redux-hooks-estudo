@@ -3,7 +3,7 @@ import reducers from './reducers';
 import thunk from 'redux-thunk';
 
 const store = configureStore({
-  reducer: reducers,
+  reducer: reducers, // passar um objeto com os reducers
   preloadedState: {},
   enhancers: [applyMiddleware(thunk)]
 });

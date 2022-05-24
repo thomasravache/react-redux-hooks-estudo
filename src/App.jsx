@@ -9,8 +9,6 @@ function App() {
 
   const { depositMoney, withdrawMoney } = bindActionCreators(actionCreators, dispatch);
 
-
-
   return (
     <div className="App">
       <button onClick={() => depositMoney(10)}>Depositar 10</button>
